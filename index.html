@@ -1,164 +1,145 @@
-<!DOCTYPE HTML>
-<!--
-	Broadcast by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Generic - Broadcast by TEMPLATED</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="assets/css/main.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>屏科大資管系</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+        @import url(mystyle.css);
+    </style>
 </head>
 
-<body class="subpage">
+<body>
+    <div class="aaa">
+        <!-- .navbar-expand-{sm|md|lg|xl}決定在哪個斷點以上就出現漢堡式選單 -->
+        <!-- navbar-dark 文字顏色 .bg-dark 背景顏色 -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <!-- Header -->
-    <header id="header">
-        <h1><a href="#">Broadcast <span>by TEMPLATED</span></a></h1>
-        <a href="#menu">Menu</a>
-    </header>
+            <!-- .navbar-brand 左上LOGO位置 -->
+            <a class="navbar-brand" href="index.html">
+                <img src="images/H-logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                <span class="h3 mx-1">NPUST MIS 28TH</span>
+            </a>
+            <!-- .navbar-toggler 漢堡式選單按鈕 -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <!-- .navbar-toggler-icon 漢堡式選單Icon -->
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <!-- Nav -->
-    <nav id="menu">
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="generic.html">Generic</a></li>
-            <li><a href="elements.html">Elements</a></li>
-        </ul>
-    </nav>
+            <!-- .collapse.navbar-collapse 用於外層中斷點群組和隱藏導覽列內容 -->
+            <!-- 選單項目&漢堡式折疊選單 -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <!-- active表示當前頁面 -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">關於</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="people.html">成員</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="thing.html">活動</a>
+                    </li>
 
-    <!-- Main -->
-    <div id="main">
 
-        <!-- One -->
-        <section class="wrapper style1">
-            <div class="inner">
-                <header class="align-center">
-                    <h2>Nam eu nisi non ante sodale</h2>
-                    <p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-                </header>
-                <div class="video">
-                    <div class="video-wrapper">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/s6zR2T9vn2c" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                    <p class="caption">
-                        In luctus nunc nec lacus condimentum maximus. Nunc vestibulum urna a arcu dignissim, nec aliquam ultrices ac massa eget placerat.
-                    </p>
-                </div>
-                <p>Curabitur venenatis lorem ut finibus finibus. Ut quis eleifend libero, nec ultricies metus. Morbi magna risus, congue sit amet pellentesque eget, malesuada ut justo. Sed ac pretium quam. Ut vel ex vitae enim sagittis posuere ac id erat.
-                    Vestibulum vel ullamcorper tellus. Donec sapien massa, venenatis ac felis vel, vestibulum sagittis enim. Maecenas ut egestas lorem, nec luctus ligula. Vestibulum neque diam, aliquet non enim a, cursus lacinia metus. Aenean fringilla
-                    luctus rhoncus. Integer vulputate massa ac suscipit venenatis. Integer luctus elit non nulla fringilla, ullamcorper maximus sem congue. Integer tristique eu nisi nec fermentum. Ut malesuada quis massa at ultricies.</p>
-                <p>Donec molestie tellus eu tincidunt dignissim. Sed sollicitudin bibendum ultricies. Vivamus tristique justo lacinia dui tempus consequat. Sed hendrerit justo in nisl auctor, id rutrum tortor congue. Vivamus mattis nibh et sem rutrum, vel
-                    viverra purus viverra. Donec et justo at orci euismod hendrerit vel vel neque. Donec gravida ipsum in augue volutpat laoreet. Ut lobortis turpis sit amet sodales ultrices.</p>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
+        </button>
+                </form>
             </div>
-        </section>
 
-        <!-- Three -->
-        <section class="wrapper ">
-            <div class="inner">
-                <header class="align-center">
-                    <h2>Aliquam ipsum purus dolor</h2>
-                    <p>Cras sagittis turpis sit amet est tempus, sit amet consectetur purus tincidunt.</p>
-                </header>
-
-                <!-- 3 Column Video Section -->
-                <div class="flex flex-3">
-                    <div class="video col">
-                        <div class="image fit">
-                            <img src="images/pic09.jpg" alt="" />
-                            <div class="arrow">
-                                <div class="icon fa-play"></div>
-                            </div>
-                        </div>
-                        <p class="caption">
-                            Cras eget lacus sed mauris scelerisque tincidunt
-                        </p>
-                        <a href="generic.html" class="link"><span>Click Me</span></a>
-                    </div>
-                    <div class="video col">
-                        <div class="image fit">
-                            <img src="images/pic10.jpg" alt="" />
-                            <div class="arrow">
-                                <div class="icon fa-play"></div>
-                            </div>
-                        </div>
-                        <p class="caption">
-                            Vivamus vulputate lacus non massa auctor lobortis
-                        </p>
-                        <a href="generic.html" class="link"><span>Click Me</span></a>
-                    </div>
-                    <div class="video col">
-                        <div class="image fit">
-                            <img src="images/pic11.jpg" alt="" />
-                            <div class="arrow">
-                                <div class="icon fa-play"></div>
-                            </div>
-                        </div>
-                        <p class="caption">
-                            Nam eu nisi non ante sodales interdum a vitae neque
-                        </p>
-                        <a href="generic.html" class="link"><span>Click Me</span></a>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </nav>
 
     </div>
 
-    <!-- Footer -->
-    <footer id="footer">
-        <div class="inner">
-            <div class="flex flex-3">
-                <div class="col">
-                    <h3>Vestibullum</h3>
-                    <ul class="alt">
-                        <li><a href="#">Nascetur nunc varius commodo.</a></li>
-                        <li><a href="#">Vis id faucibus montes tempor</a></li>
-                        <li><a href="#">Massa amet lobortis vel.</a></li>
-                        <li><a href="#">Nascetur nunc varius commodo.</a></li>
-                    </ul>
+    <main>
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: First slide"><title>Placeholder</title><rect fill="#777" width="100%" height="100%" /><text fill="#555" dy=".3em" x="50%" y="50%">First slide</text></svg>
                 </div>
-                <div class="col">
-                    <h3>Lobortis</h3>
-                    <ul class="alt">
-                        <li><a href="#">Nascetur nunc varius commodo.</a></li>
-                        <li><a href="#">Vis id faucibus montes tempor</a></li>
-                        <li><a href="#">Massa amet lobortis vel.</a></li>
-                        <li><a href="#">Nascetur nunc varius commodo.</a></li>
-                    </ul>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Second slide"><title>Placeholder</title><rect fill="#666" width="100%" height="100%" /><text fill="#444" dy=".3em" x="50%" y="50%">Second slide</text></svg>
                 </div>
-                <div class="col">
-                    <h3>Accumsan</h3>
-                    <ul class="alt">
-                        <li><a href="#">Nascetur nunc varius commodo.</a></li>
-                        <li><a href="#">Vis id faucibus montes tempor</a></li>
-                        <li><a href="#">Massa amet lobortis vel.</a></li>
-                        <li><a href="#">Nascetur nunc varius commodo.</a></li>
-                    </ul>
+                <div class="carousel-item">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Third slide"><title>Placeholder</title><rect fill="#555" width="100%" height="100%" /><text fill="#333" dy=".3em" x="50%" y="50%">Third slide</text></svg>
                 </div>
             </div>
+
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
-        <div class="copyright">
-            <ul class="icons">
-                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                <li><a href="#" class="icon fa-snapchat"><span class="label">Snapchat</span></a></li>
-            </ul>
-            &copy; Untitled. Design: <a href="https://templated.co">TEMPLATED</a>. Images: <a href="https://unsplash.com">Coverr</a>. Video: <a href="https://coverr.co">Coverr</a>.
+    </main>
+    <section align="center">
+        <a href="about.html"><button type="button" class="btn btn-primary">關於</button></a>
+        <a href="people.html"><button type="button" class="btn btn-primary">成員</button></a>
+        <a href="thing.html"><button type="button" class="btn btn-primary">活動</button></a>
+    </section>
+
+    <div class="container">
+        <div class="row">
+            <div class="g d-sm-block d-xl-block d-lg-block d-md-block col-12 col-xl-6 col-md-6 col-sm-12 ">
+                <h3 class="f">屏科資管系</h3>
+                <p class="f">網站:<a href="http://mis.npust.edu.tw/bin/home.php">http://mis.npust.edu.tw/bin/home.php</a></p>
+
+            </div>
+            <div class="g d-sm-block d-xl-block d-lg-block d-md-block col-12 col-xl-5 col-md-6 col-sm-12">
+                <h3 class="f">NPUST MIS</h3>
+                <p class="f">Website:<a href="http://mis.npust.edu.tw/bin/home.php">http://mis.npust.edu.tw/bin/home.php</a></p>
+
+            </div>
+            <div class="d-sm-block d-xl-block d-lg-block d-md-block col-12 col-xl-1 col-md-12 col-sm-12">
+                <a href="http://mis.npust.edu.tw/bin/home.php"><img src="iconnn.jpg" align="center"></a>
+
+
+            </div>
+
+        </div>
+    </div>
+    <footer class="c-footer bg-dark">
+
+        <div class="container">
+
+            <div class="grid-col-12 footera">
+
+                <a href="about.html" class="footera">關於</a>
+                <a href="people.html" class="footera">成員</a>
+                <a href="thing.html" class="footera">活動</a>
+
+            </div>
+            <div class="grid-col-12 grid-col-8-md u-padding-top-md">
+                <p class="footercolor">
+                    國立屏東科技大學資訊管理系　網站設計：籃元均
+                    <br>電話：08-7703202轉7902.7903 　傳真：08-7740306　E-mail: mis＠mail.npust.edu.tw
+                </p>
+            </div>
         </div>
     </footer>
-
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/skel.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
